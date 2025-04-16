@@ -1,1 +1,3 @@
-export const BASE_URL = `${import.meta.env.VITE_SERVER_URL}`;
+const location = window.location;
+const domain = `${location.protocol}//${location.hostname}`;
+export const BASE_URL = `${domain}:3000`;
