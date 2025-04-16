@@ -1,0 +1,37 @@
+{
+  "teams": [
+    {
+      "id": "Team A",
+      "name": "Team A",
+      "members": [
+        {
+          "name": "Alice"
+        },
+        {
+          "name": "Bobs"
+        }
+      ]
+    }
+  ],
+  "scores": [
+    {
+      "team": "Team A",
+      "station": "Station 1",
+      "score": 34,
+      "id": "Team A_Station 1"
+    },
+    {
+      "team": "Team A",
+      "station": "Station 2",
+      "score": 50,
+      "id": "Team A_Station 2"
+    },
+    {
+      "team": "Team A",
+      "station": "Station 4",
+      "score": 44,
+      "id": "Team A_Station 4"
+    }
+  ],
+  "notes": []
+}

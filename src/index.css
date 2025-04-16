@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import "tailwindcss";
+@theme {
+  --gradient-bg: radial-gradient(149.99% 174.72% at 52.99% -26.4%, #7416D3 0%, #050768 28.33%, #020619 54.45%, #1B0A43 76.39%, #7416D3 100%);
+  --font-fahkwang: 'Fahkwang', sans-serif;
+}
+
+body{
+  font-family: var(--font-fahkwang);
+  color: white;
+  background: var(--gradient-bg);
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+}
