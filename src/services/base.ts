@@ -1,3 +1,2 @@
-const location = window.location;
-const domain = `${location.protocol}//${location.hostname}`;
-export const BASE_URL = `${domain}/api`;
+
+export const BASE_URL = `${import.meta.env.VITE_SERVER_URL}`;
