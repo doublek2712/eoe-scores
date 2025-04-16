@@ -1,10 +1,4 @@
 {
-  "rewrites": [
-    {
-      "source": "/api/json",
-      "destination": "/api/json.js"
-    }
-  ],
   "builds": [
     {
       "src": "api/*.js",
@@ -13,12 +7,6 @@
     {
       "src": "index.html",
       "use": "@vercel/static-build"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/.*",
-      "dest": "/api/json.js"
     }
   ]
 }
